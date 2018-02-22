@@ -9,6 +9,9 @@ In this project, traffic sign images from the [German Traffic Sign Dataset](http
 * Explore and visualize the data set
 * Design a deep learning model (tensorflow)
 * Train, validate, and test the model
+* Use model to make predictions on new images
+* Analyze the softmax probabilities of the new images
+* Summarize the results with a written report
 
 ## Motivation
 The motivation of this project is to address one of the challenges of a fully autonomous car.  The autonomous system will require a means to identify signs and react properly.  This project only addresses identify signs.
@@ -24,9 +27,17 @@ Jupyter is an Ipython notebook where you can run blocks of code and see results 
 
 A browser window will appear showing the contents of the current directory.  Click on the file called "Traffic_Sign_Classifier.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project. 
 
-### Dataset and Repository
+## Dataset and Repository
 1. Download [traffic-signs-data](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset#Downloads). 
 This is a pickled dataset in which we've already resized the images to 32x32. It contains a training, validation and test set.
+•	The size of training set is 34799
+•	The size of the validation set is 4410
+•	The size of test set is 12630
+•	The shape of a traffic sign image is (32, 32, 3)
+•	The number of unique classes/labels in the data set is 43
+
+## Deep Neural Network Model (LeNet)
+
 
 ## Tests
 1. Test on the valid and test sets
